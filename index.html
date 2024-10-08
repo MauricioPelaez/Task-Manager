@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="theme-toggle">
+      <button id="toggle-theme-btn" class="btn-principal btn-toggle">
+        Toggle Theme
+      </button>
+    </div>
+    <div id="task-manager">
+      <h1 class="title">Task Manager</h1>
+      <form id="task-form">
+        <div class="container-form">
+          <input id="task-input" type="text" placeholder="Enter a new task" />
+          <input type="submit" value="+" class="btn-principal" />
+        </div>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
